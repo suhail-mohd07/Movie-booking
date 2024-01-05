@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LOGIN</title>
+ 
+    <link rel="stylesheet" href="signup.css">
+
+    </style>
+</head>
+<body>
+    <div class="signup-page">
+
+        <div class="header">
+            <img src="logo.png" alt="">
+            <p>MOVIES</p>
+            <!-- <h2>SIGN UP</h2> -->
+          </div>
+        
+    <div class="container">
+        <div class="form" name="form">
+            <h3>Register</h3>
+    
+            <input id="name" name="uname" type="text"  required placeholder="Enter Your Name" >
+    
+            <input id="email" name="email" type="email" required  placeholder="Enter Your Email" >
+    
+            <input id="pwd" name="pwd" type="password" required placeholder="Create Password" >
+    
+            <input id="cpwd" name="cpwd" type="password" required placeholder="Confirm Password" >
+    
+            <input class="button" type="submit" required value="Sign Up" onclick="signup()"></input>
+            
+        </div>
+    </div>
+    
+</div>
+<script >
+    function signup() {
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let pwd = document.getElementById("pwd").value;
+    let cpwd = document.getElementById("cpwd").value;
+
+    localStorage.setItem('EMAIL',email);
+    localStorage.setItem('PWD',pwd);
+
+    if (pwd!==cpwd) {
+        alert("Password does not match");
+    }
+    
+    else if ( pwd == "" || name=='' || email=='' || cpwd=='') {
+        alert("Enter correct details");
+    }
+    else {
+        alert("Registration Successfull");
+        window.location.href='movies.html';
+
+    }
+}
+
+</script>
+
+</body>
+</html>

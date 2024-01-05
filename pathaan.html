@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+  <div class="new-mbody">
+    <div class="header">
+      <img src="logo.png" alt="">
+      <p>MOVIES</p>
+      <h2>TICKET BOOKING</h2>
+    </div>
+    <div class="body-contain">
+      <div class="movie-details">
+        <div class="img-contain">
+          <p>Movie details</p>
+          <img src="poster/pathaan-3.jpg" alt="">
+          <div class="movhead"><h1 class="movname" data-movname="Pathaan">PATHAAN</h1></div> 
+          <p1>Hindi</p1>
+        </div>
+        <div class="cast">
+          <h3>About</h3>
+          <p>Pathaan is a 2023 Indian Hindi-language action thriller film directed by Siddharth Anand and produced by Aditya Chopra of Yash Raj Films.Written by Shridhar Raghavan and Abbas Tyrewala from a story by Anand, the film is about Pathaan, an exiled RAW agent, who must work with ISI agent Rubina to take down Jim, a former RAW agent-turned-traitor.</p>
+          <h3>Cast</h3>
+          <ul>
+            <li>Shah Rukh Khan</li>
+            <li>Deepika Padukone</li>
+            <li>John Abraham</li>
+            <li>Dimple Kapadia</li>
+            <li>Ashutosh Rana</li>
+
+
+          </ul>
+
+        </div>
+      </div>
+      <div class="seat-booking">
+        <div class="screen">
+          <div class="big-screen">
+          </div>
+        </div>
+        <div class="seats">
+          <div class="seat-row">
+            <div class="left-row">
+              <div class="row-letter">A</div>
+              <div class="seat" data-seat="A1" id="a1">1</div>
+              <div class="seat" data-seat="A2" id="a2">2</div>
+              <div class="seat" data-seat="A3" id="a3">3</div>
+              <div class="seat" data-seat="A4" id="a4">4</div>
+              <div class="seat" data-seat="A5" id="a5">5</div>
+              <div class="seat" data-seat="A6" id="a6">6</div>
+              <div class="seat" data-seat="A7" id="a7">7</div>
+              <div class="seat" data-seat="A8" id="a8">8</div>            
+            </div>
+            <div class="right-row">
+              <div class="seat" data-seat="A9" id="a9">9</div>
+              <div class="seat" data-seat="A10" id="a10">10</div>
+              <div class="seat" data-seat="A11" id="a11">11</div>
+              <div class="seat" data-seat="A12" id="a12">12</div>
+              <div class="seat" data-seat="A13" id="a13">13</div>
+              <div class="seat" data-seat="A14" id="a14">14</div>
+              <div class="seat" data-seat="A15" id="a15">15</div>
+              <div class="seat" data-seat="A16" id="a16">16</div> 
+            </div>
+          </div>
+          <div class="seat-row">
+            <div class="left-row">
+              <div class="row-letter">B</div>
+              <div class="seat" data-seat="B1" id="b1">1</div>
+              <div class="seat" data-seat="B2" id="b2">2</div>
+              <div class="seat" data-seat="B3" id="b3">3</div>
+              <div class="seat" data-seat="B4" id="b4">4</div>
+              <div class="seat" data-seat="B5" id="b5">5</div>
+              <div class="seat" data-seat="B6" id="b6">6</div>
+              <div class="seat" data-seat="B7" id="b7">7</div>
+              <div class="seat" data-seat="B8" id="b8">8</div>            
+            </div>
+            <div class="right-row">
+              <div class="seat" data-seat="B9" id="b9">9</div>
+              <div class="seat" data-seat="B10" id="b10">10</div>
+              <div class="seat" data-seat="B11" id="b11">11</div>
+              <div class="seat" data-seat="B12" id="b12">12</div>
+              <div class="seat" data-seat="B13" id="b13">13</div>
+              <div class="seat" data-seat="B14" id="b14">14</div>
+              <div class="seat" data-seat="B15" id="b15">15</div>
+              <div class="seat" data-seat="B16" id="b16">16</div> 
+            </div>
+          </div>
+          <div class="seat-row">
+            <div class="left-row">
+              <div class="row-letter">C</div>
+              <div class="seat" data-seat="C1" id="c1">1</div>
+              <div class="seat" data-seat="C2" id="c2">2</div>
+              <div class="seat" data-seat="C3" id="c3">3</div>
+              <div class="seat" data-seat="C4" id="c4">4</div>
+              <div class="seat" data-seat="C5" id="c5">5</div>
+              <div class="seat" data-seat="C6" id="c6">6</div>
+              <div class="seat" data-seat="C7" id="c7">7</div>
+              <div class="seat" data-seat="C8" id="c8">8</div>            
+            </div>
+            <div class="right-row">
+              <div class="seat" data-seat="C9" id="c9">9</div>
+              <div class="seat" data-seat="C10" id="c10">10</div>
+              <div class="seat" data-seat="C11" id="c11">11</div>
+              <div class="seat" data-seat="C12" id="c12">12</div>
+              <div class="seat" data-seat="C13" id="c13">13</div>
+              <div class="seat" data-seat="C14" id="c14">14</div>
+              <div class="seat" data-seat="C15" id="c15">15</div>
+              <div class="seat" data-seat="C16" id="c16">16</div> 
+            </div>
+          </div>
+          <div class="seat-row">
+            <div class="left-row">
+              <div class="row-letter">D</div>
+              <div class="seat" data-seat="D1" id="d1">1</div>
+              <div class="seat" data-seat="D2" id="d2">2</div>
+              <div class="seat" data-seat="D3" id="d3">3</div>
+              <div class="seat" data-seat="D4" id="d4">4</div>
+              <div class="seat" data-seat="D5" id="d5">5</div>
+              <div class="seat" data-seat="D6" id="d6">6</div>
+              <div class="seat" data-seat="D7" id="d7">7</div>
+              <div class="seat" data-seat="D8" id="d8">8</div>            
+            </div>
+            <div class="right-row">
+              <div class="seat" data-seat="D9" id="d9">9</div>
+              <div class="seat" data-seat="D10" id="d10">10</div>
+              <div class="seat" data-seat="D11" id="d11">11</div>
+              <div class="seat" data-seat="D12" id="d12">12</div>
+              <div class="seat" data-seat="D13" id="d13">13</div>
+              <div class="seat" data-seat="D14" id="d14">14</div>
+              <div class="seat" data-seat="D15" id="d15">15</div>
+              <div class="seat" data-seat="D16" id="d16">16</div> 
+            </div>
+          </div>
+          <div class="seat-row">
+            <div class="left-row">
+              <div class="row-letter">E</div>
+              <div class="seat" data-seat="E1" id="e1">1</div>
+              <div class="seat" data-seat="E2" id="e2">2</div>
+              <div class="seat" data-seat="E3" id="e3">3</div>
+              <div class="seat" data-seat="E4" id="e4">4</div>
+              <div class="seat" data-seat="E5" id="e5">5</div>
+              <div class="seat" data-seat="E6" id="e6">6</div>
+              <div class="seat" data-seat="E7" id="e7">7</div>
+              <div class="seat" data-seat="E8" id="e8">8</div>            
+            </div>
+            <div class="right-row">
+              <div class="seat" data-seat="E9" id="e9">9</div>
+              <div class="seat" data-seat="E10" id="e10">10</div>
+              <div class="seat" data-seat="E11" id="e11">11</div>
+              <div class="seat" data-seat="E12" id="e12">12</div>
+              <div class="seat" data-seat="E13" id="e13">13</div>
+              <div class="seat" data-seat="E14" id="e14">14</div>
+              <div class="seat" data-seat="E15" id="e15">15</div>
+              <div class="seat" data-seat="E16" id="e16">16</div> 
+            </div>
+          </div>
+          <div class="seat-row">
+            <div class="left-row">
+              <div class="row-letter">F</div>   
+              <div class="seat" data-seat="F1" id="f1">1</div>
+              <div class="seat" data-seat="F2" id="f2">2</div>
+              <div class="seat" data-seat="F3" id="f3">3</div>
+              <div class="seat" data-seat="F4" id="f4">4</div>
+              <div class="seat" data-seat="F5" id="f5">5</div>
+              <div class="seat" data-seat="F6" id="f6">6</div>
+              <div class="seat" data-seat="F7" id="f7">7</div>
+              <div class="seat" data-seat="F8" id="f8">8</div>            
+            </div>
+            <div class="right-row">
+              <div class="seat" data-seat="F9" id="f9">9</div>
+              <div class="seat" data-seat="F10" id="f10">10</div>
+              <div class="seat" data-seat="F11" id="f11">11</div>
+              <div class="seat" data-seat="F12" id="f12">12</div>
+              <div class="seat" data-seat="F13" id="f13">13</div>
+              <div class="seat" data-seat="F14" id="f14">14</div>
+              <div class="seat" data-seat="F15" id="f15">15</div>
+              <div class="seat" data-seat="F16" id="f16">16</div> 
+            </div>
+          </div>
+          <div class="seat-row">
+            <div class="left-row">
+              <div class="row-letter">G</div>   
+              <div class="seat" data-seat="G1" id="g1">1</div>
+              <div class="seat" data-seat="G2" id="g2">2</div>
+              <div class="seat" data-seat="G3" id="g3">3</div>
+              <div class="seat" data-seat="G4" id="g4">4</div>
+              <div class="seat" data-seat="G5" id="g5">5</div>
+              <div class="seat" data-seat="G6" id="g6">6</div>
+              <div class="seat" data-seat="G7" id="g7">7</div>
+              <div class="seat" data-seat="G8" id="g8">8</div>            
+            </div>
+            <div class="right-row">
+              <div class="seat" data-seat="G9" id="g9">9</div>
+              <div class="seat" data-seat="G10" id="g10">10</div>
+              <div class="seat" data-seat="G11" id="g11">11</div>
+              <div class="seat" data-seat="G12" id="g12">12</div>
+              <div class="seat" data-seat="G13" id="g13">13</div>
+              <div class="seat" data-seat="G14" id="g14">14</div>
+              <div class="seat" data-seat="G15" id="g15">15</div>
+              <div class="seat" data-seat="G16" id="g16">16</div> 
+            </div>
+          </div>
+          <div class="seat-row">
+            <div class="left-row">
+              <div class="row-letter">H</div>   
+              <div class="seat" data-seat="H1" id="h1">1</div>
+              <div class="seat" data-seat="H2" id="h2">2</div>
+              <div class="seat" data-seat="H3" id="h3">3</div>
+              <div class="seat" data-seat="H4" id="h4">4</div>
+              <div class="seat" data-seat="H5" id="h5">5</div>
+              <div class="seat" data-seat="H6" id="h6">6</div>
+              <div class="seat" data-seat="H7" id="h7">7</div>
+              <div class="seat" data-seat="H8" id="h8">8</div>            
+            </div>
+            <div class="right-row">
+              <div class="seat" data-seat="H9" id="h9">9</div>
+              <div class="seat" data-seat="H10" id="h10">10</div>
+              <div class="seat" data-seat="H11" id="h11">11</div>
+              <div class="seat" data-seat="H12" id="h12">12</div>
+              <div class="seat" data-seat="H13" id="h13">13</div>
+              <div class="seat" data-seat="H14" id="h14">14</div>
+              <div class="seat" data-seat="H15" id="h15">15</div>
+              <div class="seat" data-seat="H16" id="h16">16</div> 
+            </div>
+          </div>
+        </div>
+        <div class="status">
+          <div class="sold-seat"></div>
+          <h3>Sold</h3>
+          <div class="available-seat"></div>
+          <h3>Available</h3>
+          <div class="selected-seat"></div>
+          <h3>Selected</h3>
+        </div>
+        <div class="timings">
+          <div class="datediv"><input type="date" class="Date"></div>
+          <div class="times">
+            <button class="time" data-time="10 AM">10 AM</button>
+            <button class="time" data-time="1 PM">1 PM</button>
+            <button class="time" data-time="4 PM">4 PM</button>
+            <button class="time" data-time="7 PM">7 PM</button>
+            <button class="time" data-time="10 PM">10 PM</button>
+          </div>
+            <div class="okay">
+             <input type="Submit"  id="booktkt" value="Book" name="Book" id="">
+             <a href="pathaan.html"><input type="Submit" id="cancel" name="Cancel" value="cancel" id=""></a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="booking-summary-page">
+    <div class="header">
+      <img src="logo.png" alt="">
+      <p>MOVIES</p>
+      <h2>TICKET BOOKING</h2>
+    </div>
+    <div class="booking-summary-container">
+      <div class="booking-summary">
+        <table>
+          <tbody>
+            <tr>
+              <td>Movie Name : </td>
+              <th id="mname"></th>
+            </tr>
+            <tr>
+              <td>Seat No. : </td>
+              <th id="snumber"></th>
+            </tr>
+            <tr>
+              <td>Cinema Hall : </td>
+              <th>JGI Hall</th>
+            </tr>
+            <tr>
+              <td>Booking Date : </td>
+              <th id="getdate">10th January 2023</th>
+            </tr>
+            <tr>
+              <td>Show Timing : </td>
+              <th id="showtime">1 PM</th>
+            </tr>
+            <tr>
+              <td>No. Of Tickets : </td>
+              <th id="no-of-tickets">2</th>
+            </tr>
+            <tr>
+              <td>Ticket Price : </td>
+              <th id="price">200 Rs.</th>
+            </tr>
+            <tr>
+              <td>GST : </td>
+              <th>10% </th>
+            </tr>
+            <tr>
+              <td>Total Amout : </td>
+              <th id="totprice">200 Rs.</th>
+            </tr>
+            <tr>
+              <th><button class="pay"> Pay Now</button></th>
+              <th><button class="edit">Edit details</button></th>
+            </tr>
+            
+          </tbody>
+        </table>
+        
+
+      </div>
+    </div>
+      
+    </div>
+
+
+  <!-- 
+
+
+      Payment Page
+
+
+      -->
+      <div class="payment-page">
+        <div class="header">
+          <img src="logo.png" alt="">
+          <p>MOVIES</p>
+        </div>
+        <div class="payment-page-container">
+          <div class="wrapper">
+            <h2>Payment Form</h2>
+            <form method="POST" action="ticket.html">
+              <h4>Account</h4>
+              <div class="input-group">
+                <div class="input-box">
+                  <input type="text" placeholder="Full Name" id="fname" required class="name">
+                  <i class="bi bi-person-fill icon"></i>
+                </div>
+                <div class="input-box">
+                  <input type="text" placeholder="Nick Name" id="lname" required class="name">
+                  <i class="bi bi-person-fill icon"></i>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-box">
+                  <input type="email" placeholder="Email Adress" id="ename" required class="name">
+                  <i class="bi bi-envelope-fill icon"></i>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-box">
+                  <h4> Date of Birth</h4>
+                  <input type="text" placeholder="DD" id="dd" class="dob">
+                  <input type="text" placeholder="MM" id="mm" class="dob">
+                  <input type="text" placeholder="YYYY" id="yy" class="dob">
+                </div>
+                <!-- <div class="input-box">
+                      <h4> Gender</h4>
+                      <input type="radio" id="b1" name="gendar" checked  class="radio">
+                      <label for="b1">Male</label>
+                      <input type="radio" id="b2" name="gendar" class="radio">
+                      <label for="b2">Female</label>
+                  </div> -->
+    
+              </div>
+              <div class="input-group">
+                <div class="input-box">
+                  <h4>Payment Details</h4>
+                  <input type="radio" name="pay" id="bc1" checked class="radio">
+                  <label for="bc1"><span><i class="bi bi-credit-card"></i> Debit Card</span></label>
+                  <input type="radio" name="pay" id="bc2" class="radio">
+                  <label for="bc2"><span><i class="bi bi-credit-card-2-back"></i> Credit card</span></label>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-box">
+                  <input type="tel" placeholder="Card Number" required id="cname" class="name">
+                  <i class="bi bi-credit-card-2-front-fill icon"></i>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-box">
+                  <input type="password" placeholder="Card CVC" id="cvc" required class="name">
+                  <i class="bi bi-file-lock2-fill icon"></i>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-box">
+                  <button type="submit" id="payamount">PAY NOW</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+ <script src="booking.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        width: 500px;
+        margin: 50px auto;
+      }
+      .seats {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .seat {
+        width: 50px;
+        height: 50px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        cursor: pointer;
+        background-color: #fff;
+        transition: all 0.3s ease;
+      }
+      .seat:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #ccc;
+      }
+      .seat.selected {
+        background-color: #f00;
+        color: #fff;
+      }
+      #book-btn {
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color: #f00;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="seats">
+        <div class="seat">A1</div>
+        <div class="seat">A2</div>
+        <div class="seat">A3</div>
+         Add more seats here
+        <div class="seat">J98</div>
+        <div class="seat">J99</div>
+        <div class="seat">J100</div>
+      </div>
+      <button id="book-btn">Book</button>
+    </div>
+    <script>
+      const seats = document.querySelectorAll(".seat");
+      const bookBtn = document.querySelector("#book-btn");
+      let selectedSeats = [];
+      seats.forEach(seat => {
+        seat.addEventListener("click", e => {
+          seat.classList.toggle("selected");
+          if (selectedSeats.includes(seat.textContent)) {
+            selectedSeats = selectedSeats.filter(
+              s => s !== seat.textContent
+            );
+          } else {
+            selectedSeats.push(seat.textContent);
+          }
+          bookBtn.textContent = `Book ${selectedSeats.length} Seat${
+            selectedSeats.length > 1 ? "s" : ""
+          }`;
+        });
+      });
+      bookBtn.addEventListener("click", e => {
+        alert(`Seats booked: ${selectedSeats.join(", ")}`);
+      });
+    </script>
+  </body>
+</html> -->

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/sponsorsDetails.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Sponsors</h1>
+        </div>
+        <div class="logo-container">
+            <img class="logo" src="./assets/images/logo/gg_logo.jpg" alt="">
+        </div>
+        <div class="about-container">
+            <p class="about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam temporibus perspiciatis quasi, reiciendis iste tempora vel sapiente quidem at accusantium eligendi eveniet necessitatibus esse! Voluptas maiores, fugit animi iure alias id? Excepturi laborum corporis eveniet ipsa aperiam mollitia provident quibusdam, vitae blanditiis ipsam ullam enim, iure quam eum expedita libero praesentium numquam tenetur molestias. Doloremque exercitationem ex eius dolorum minus. Blanditiis magni molestias laborum reprehenderit aliquid quia omnis quaerat placeat iste laboriosam temporibus, dolores natus doloremque illum deleniti nihil. Odit iste error, eum quisquam et, eos magni aliquid porro hic vitae perspiciatis. Veritatis natus incidunt, esse eveniet accusantium, inventore, omnis laudantium animi est atque enim? A doloribus, porro voluptas labore vitae dignissimos praesentium modi adipisci, eos tenetur fugit nostrum. Odit cupiditate, doloremque repellat, rerum ducimus maxime maiores debitis dolorem iure, provident libero vel enim exercitationem reprehenderit tempore sit. Optio tenetur praesentium perferendis libero cum assumenda aut fugiat. Assumenda dolor voluptatibus quia accusantium. Explicabo, facere sint deserunt similique sequi, modi, vero eius vitae quia doloribus fuga! Expedita laudantium non voluptatem. Ex non in culpa. Ducimus vero numquam cupiditate et vel? Perferendis quod doloremque accusamus, modi illum aperiam distinctio sed labore exercitationem facilis nulla voluptate libero voluptas quibusdam, quia autem provident veniam consectetur. At, vitae ullam. Deleniti, a. Excepturi iste dignissimos voluptas, et libero quo unde. Natus eum debitis harum numquam error cupiditate, consequuntur repellat iste laboriosam quo accusamus inventore consectetur iure rerum magni ullam quas dolor eaque in veritatis beatae totam? Optio reprehenderit id omnis veritatis molestias, quos voluptas, excepturi repudiandae saepe nostrum impedit pariatur iusto facilis tempora illum hic, tenetur officia. Ab libero voluptate quam nobis recusandae voluptatibus? Sit vero ipsam suscipit nihil dignissimos unde quod placeat molestias in temporibus nemo sapiente, laudantium ea reiciendis ut odit. Maxime, eum vel esse tempora nam odio expedita, mollitia numquam aut, quo quidem?</p>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+}
+.container .heading{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-container{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    
+}
+.about-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.about-container .about{
+    width: 80%;
+    height: auto;
+
+
+    
+}
+
